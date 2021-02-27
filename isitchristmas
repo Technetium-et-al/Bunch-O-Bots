@@ -1,0 +1,12 @@
+from datetime import date
+
+def isitchristmasbool():
+  if datetime.date.month == 12 and datetime.date.day == 25:
+    christmasbool = True
+  else:
+    christmasbool = False
+def isitchristmas():
+    if(christmasbool):
+      print(Yes)
+    else:
+      print(No)
